@@ -1,5 +1,5 @@
 # adapt
-Adapting your layouts to be more tablet friendly. I just wanted to see if things would be as simple as I thought it'd be. 
+Adapting your layouts to be more tablet friendly. I just wanted to see if things would be as simple as I thought it'd be. I probably could have made some more appealing layouts, but again, that wasn't the main focus.
 
 Phone layout (Nexus 5):
 
