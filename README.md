@@ -11,6 +11,8 @@ Phone layout (Nexus 5):
 <img src="http://i.imgur.com/nZNcVO1.png" alt="Landscape Combined Activity" height="150">
 <img src="http://i.imgur.com/4dEJ10u.png" alt="Landscape Detail Activity" height="150">
 
+________________________________________________________________________________________________
+
 Small tablet layout (Nexus 7):
 
 <img src="http://i.imgur.com/IJJ1JIo.png" alt="Portrait Album Activity" width="200">
@@ -20,6 +22,8 @@ Small tablet layout (Nexus 7):
 <img src="http://i.imgur.com/FXO6lwQ.png" alt="Landscape Album Activity" height="150">
 <img src="http://i.imgur.com/kkug2Kw.png" alt="Landscape Combined Activity" height="150">
 <img src="http://i.imgur.com/n2IMCcQ.png" alt="Landscape Detail Activity" height="150">
+
+________________________________________________________________________________________________
 
 Big tablet layout (Nexus 9):
 
