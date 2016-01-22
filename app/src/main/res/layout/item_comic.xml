@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:id="@+id/comic_layout"
+              xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:tools="http://schemas.android.com/tools"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:orientation="vertical"
+              android:paddingBottom="8dp"
+              android:paddingTop="8dp"
+    >
+
+    <ImageView
+        android:id="@+id/comic_image"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/image_height"
+        android:scaleType="centerCrop"
+        android:transitionName="@string/combined_to_detail_transition_name"
+        tools:src="@drawable/ddbendis"
+        />
+
+    <TextView
+        android:id="@+id/comic_title"
+        style="@style/BodyText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ellipsize="end"
+        android:maxLines="@integer/title_max_lines"
+        android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+        tools:text="Daredevil"
+        />
+
+    <TextView
+        android:id="@+id/comic_writer"
+        style="@style/BodyText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+        tools:text="Brian Michael Bendis"
+        />
+
+
+</LinearLayout>

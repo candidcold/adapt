@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">adapt</string>
+    <string name="action_settings">Settings</string>
+    <string name="combined_activity_label">combined</string>
+    <string name="detail_activity_label">detail</string>
+    <!-- Activity transitions still work! -->
+    <string name="combined_to_detail_transition_name">combinedToDetail</string>
+</resources>

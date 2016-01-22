@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<android.support.v7.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginEnd="@dimen/content_gutter"
+    android:layout_marginStart="@dimen/content_gutter"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".albums.AlbumActivity"
+    tools:showIn="@layout/activity_album"
+    >
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/album_list"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+        tools:listitem="@layout/item_album"
+        />
+
+</android.support.v7.widget.CardView>

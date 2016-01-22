@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="image_height">320dp</dimen>
+    <dimen name="content_gutter">160dp</dimen>
+    <dimen name="toolbar_size">128dp</dimen>
+    <dimen name="margin_from_edge">40dp</dimen>
+    <dimen name="gutter_between_content">24dp</dimen>
+    <dimen name="detail_gutter">0dp</dimen>
+</resources>

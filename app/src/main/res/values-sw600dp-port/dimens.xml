@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="content_gutter">64dp</dimen>
+    <dimen name="image_height">320dp</dimen>
+    <dimen name="detail_gutter">0dp</dimen>
+</resources>

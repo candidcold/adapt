@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<android.support.v7.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginEnd="@dimen/detail_gutter"
+    android:layout_marginStart="@dimen/detail_gutter"
+    tools:context=".detail.DetailActivity"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        >
+
+        <ImageView
+            android:id="@+id/detail_image"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/image_height"
+            android:scaleType="centerCrop"
+            android:transitionName="@string/combined_to_detail_transition_name"
+            tools:src="@drawable/astonishingxmen"
+            />
+
+        <TextView
+            android:id="@+id/text1"
+            style="@style/BodyText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+            tools:text="Astonishing X-Men"
+            />
+
+        <TextView
+            android:id="@+id/text2"
+            style="@style/BodyText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+            tools:text="Joss Whedon"
+            />
+
+        <TextView
+            android:id="@+id/text3"
+            style="@style/BodyText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingBottom="@dimen/text_gutter"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+            tools:text="This is my ipsum text for the description in long form"
+            />
+
+    </LinearLayout>
+</android.support.v7.widget.CardView>

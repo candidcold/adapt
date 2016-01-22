@@ -1,0 +1,48 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/albumColorPrimary</item>
+        <item name="colorPrimaryDark">@color/albumColorPrimaryDark</item>
+        <item name="colorAccent">@color/albumColorAccent</item>
+    </style>
+
+    <style name="AppTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+
+    <!-- Here we create a new theme for the combined theme, just to show off how the tools reflect our change -->
+    <style name="CombinedTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="android:windowNoTitle">true</item>
+        <item name="colorPrimary">@color/combinedPrimary</item>
+        <item name="colorPrimaryDark">@color/combinedPrimaryDark</item>
+        <item name="colorAccent">@color/combinedAccent</item>
+    </style>
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+
+    <style name="BaseDetailTheme" parent="Theme.AppCompat.Light.DarkActionBar" />
+
+    <style name="DetailTheme" parent="BaseDetailTheme">
+        <!-- Define the styles here so you don't have to duplicate them  -->
+        <item name="windowNoTitle">true</item>
+        <item name="colorPrimary">@color/combinedPrimary</item>
+        <item name="colorPrimaryDark">@color/combinedPrimaryDark</item>
+        <item name="colorAccent">@color/combinedAccent</item>
+    </style>
+
+
+    <!-- STYLES -->
+    <!-- Got real annoying typing this over and over -->
+    <style name="BodyText">
+        <item name="android:paddingStart">@dimen/text_gutter</item>
+        <item name="android:paddingEnd">@dimen/text_gutter</item>
+    </style>
+
+</resources>
