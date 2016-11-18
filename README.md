@@ -1,6 +1,8 @@
 # adapt
 Adapting your layouts to be more tablet friendly. I just wanted to see if things would be as simple as I thought it'd be. I probably could have made some more appealing layouts, but again, that wasn't the main focus.
 
+The accompanying blogpost can be found here: https://medium.com/@candidcold/easy-android-tablet-layouts-22a84239bd4#.hg8rc5rvg
+
 To move from the AlbumActivity to CombinedActivity, press the Fab.
 
 Phone layout (Nexus 5):
